@@ -35,7 +35,30 @@ def all_favourite_foods(people):
         food_list.extend(person["favourites"]["snacks"])
     return food_list
 
-def 
+def find_no_friends(people):
+    
+    no_friends_list = []
+    
+    for person in people:
+        if person["friends"] == []:
+             no_friends_list.append(person)
+    
+    return no_friends_list   
+
+def favourite_tv_shows(people):
+    fav_tv_list = [] 
+
+    for person in people:
+        
+        person_list = person["favourites"]["tv_show"]
+        if fav_tv_list.count(person_list) == 0:
+            fav_tv_list.extend(person["favourites"]["tv_show"])
+        fav_tv_list.count()
+    
+
+
+
+
 
 
 
