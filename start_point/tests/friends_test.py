@@ -64,7 +64,7 @@ class TestFriends(unittest.TestCase):
 
 
   # 1. For a given person, return their name
-  @unittest.skip("delete this line to run the test")  
+  # @unittest.skip("delete this line to run the test")  
   def test_getting_name(self):
     result = get_name(self.person5)
     self.assertEqual("Daphne", result)
