@@ -25,6 +25,22 @@ def total_money(people):
       all_money += person["monies"]    
     return all_money 
     
-    
+def lend_money(person_1,person_2,amount):
+    person_1["monies"] -= amount
+    person_2["monies"] += amount 
+
+def all_favourite_foods(people):
+    food_list = []
+    for person in people:
+        food_list.extend(person["favourites"]["snacks"])
+    return food_list
+
+def 
+
+
+
+
+
+
       
     
