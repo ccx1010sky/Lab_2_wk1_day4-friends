@@ -108,14 +108,14 @@ class TestFriends(unittest.TestCase):
 
   # 6. Find the total of everyone's money
   # (hint: use the self.people array, remember how we checked the total number of eggs yesterday?)
-  @unittest.skip("delete this line to run the test")
+  # @unittest.skip("delete this line to run the test")
   def test_total_money(self):
     self.assertEqual(143, total_money(self.people))
 
 
   # 7. For two given people, allow the first person to loan a given value of money to the other
   # (hint: our function will probably need 3 arguments passed to it... the lender, the lendee, and the amount for this function)
-  @unittest.skip("delete this line to run the test")
+  # @unittest.skip("delete this line to run the test")
   def test_lend_money(self):
     lend_money(self.person2, self.person1, 2)
     self.assertEqual(0, self.person2["monies"])
